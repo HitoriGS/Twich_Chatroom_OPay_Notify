@@ -55,7 +55,7 @@ function getSubTier(subPlan){
         return 'prime'
     }
 }
-
+/*
 function pushCheckIgnoreCount(msg, gifter){
     if(ignoreCount > 0){
         setTimeout(pushCheckIgnoreCount, 1000, msg, gifter)
@@ -66,10 +66,10 @@ function pushCheckIgnoreCount(msg, gifter){
     gifteeList.forEach(function(giftee) {
         msg = msg + giftee + ', '
     }, this)
-    msg = gifter + ' 對 ' + msg + '說：請問你要加入金魚神教嗎？ (Y/y)'
+    msg = gifter + ' 對 ' + msg + '送禮'
     waitingList.push(msg)
 }
-
+*/
 client.on("join", (channel, username, self) => {
     if(!self)
       return;
@@ -251,7 +251,7 @@ function msgSender(){
 
 function viewersChecker(){
     request.get(
-        'http://tmi.twitch.tv/group/user/vocaljudy/chatters',
+        'http://tmi.twitch.tv/group/user/' + setting.username + '/chatters',
         { json: { key: 'value' } },
         function (error, response, body) {
             if (!error && response.statusCode == 200) {
@@ -263,6 +263,7 @@ function viewersChecker(){
     )
 }
 
+/*
 function checker(){
     request({
       headers: {
@@ -280,9 +281,9 @@ function checker(){
       }
     });
 };
+*/
 
-
-
+/*
 async function queryHours(){
     const browser = await puppeteer.launch({args: ['--no-sandbox']});
     const page = await browser.newPage();
@@ -296,7 +297,7 @@ async function queryHours(){
     hours = data[0][3].replace(' hrs','')
     await browser.close();
 }
-  
+  */
 setInterval(donateCheaker, 2000);
 setInterval(msgSender, 2000);
 setInterval(viewersChecker, 30000);
