@@ -2,11 +2,6 @@
 
 修改自 https://github.com/frostiness520/Twich_Chatroom_OPay_Notify
 
-Should give it a Twitch account name and the [oauth](https://twitchapps.com/tmi/) of account.
-
-```
-$ node bot.js
-```
 
 ## 使用方法
 
