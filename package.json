@@ -25,6 +25,7 @@
     "entities": "^2.2.0",
     "html-entities": "^2.3.2",
     "puppeteer": "^10.1.0",
+    "request": "^2.88.2",
     "tmi.js": "^1.8.3"
   }
 }
