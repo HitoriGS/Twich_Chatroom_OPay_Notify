@@ -8,7 +8,7 @@
 ### 安裝
 
 ``` 
-git clone https://github.com/asunplugged/Twich_Chatroom_OPay_Notify
+git clone https://github.com/HitoriGS/Twich_Chatroom_OPay_Notify
 ```
 
 ### 進入資料夾
