@@ -38,8 +38,8 @@ const client = new tmi.client(options);
 client.connect();
 
 viewersChecker()
-queryHours()
-checker()
+// queryHours()
+// checker()
 
 function getSubTier(subPlan){
     if(subPlan.indexOf('1000') >= 0){
@@ -301,5 +301,5 @@ async function queryHours(){
 setInterval(donateCheaker, 2000);
 setInterval(msgSender, 2000);
 setInterval(viewersChecker, 30000);
-setInterval(queryHours, 600000);
-setInterval(checker, 10000);
+// setInterval(queryHours, 600000);
+// setInterval(checker, 10000);
