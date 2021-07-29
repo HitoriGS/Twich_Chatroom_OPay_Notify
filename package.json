@@ -1,0 +1,30 @@
+{
+  "name": "twich_chatroom_opay_notify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asunplugged/Twitch_Chatroom_Opay_Notify.git"
+  },
+  "keywords": [
+    "npm",
+    "twitch"
+  ],
+  "author": "HitoriGS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asunplugged/Twitch_Chatroom_Opay_Notify/issues"
+  },
+  "homepage": "https://github.com/asunplugged/Twitch_Chatroom_Opay_Notify#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "entities": "^2.2.0",
+    "html-entities": "^2.3.2",
+    "puppeteer": "^10.1.0",
+    "tmi.js": "^1.8.3"
+  }
+}
