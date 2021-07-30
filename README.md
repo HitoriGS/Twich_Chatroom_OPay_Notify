@@ -22,7 +22,7 @@ npm install
 ```
 
 1. 先到[Twitch tmi](https://twitchapps.com/tmi/)取得聊天室金鑰(oath)
-2. 再到歐付寶Donate取得 https://payment.opay.tw/Broadcaster/Donate/xxxxxxx 中的 xxxxxxx(歐付寶ID)
+2. 再到歐付寶Donate取得 https://payment.opay.tw/Broadcaster/Donate/xxxxxxx 中的 xxxxxxx(歐付寶Key)
 ![](https://i.imgur.com/CiV8FNb.jpg)
 
 ### 修改 config.json
@@ -31,7 +31,7 @@ npm install
 "username" : "你的Twitch ID",
 "oath" : "oath:輸入取得的聊天室金鑰",
 "channel" : "#頻道名稱",
-"OPayKey" : "歐付寶ID",
+"OPayKey" : "歐付寶Key",
 "modName" : "你的Twitch ID",
 "testCommand" : "!testCommand",
 "streamLabsToken" : "streamLabsToken"
